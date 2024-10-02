@@ -1,0 +1,116 @@
+/* meet community */
+
+/* .left-text-holder {
+    float: right;
+  } */
+  
+  
+  
+  .left-text-holder .heading {
+    font-family: 'DIN Condensed';
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+    font-size: 62px;
+    width: 250px;
+    height: 120px;
+    line-height: 55px;
+    margin: 10px 0px;
+    text-align: left;
+   
+  }
+  .left-text-holder .heading .line-text{
+    text-decoration: line-through;
+    text-decoration-color: #FFDAC9;
+    display: inline-block;
+    text-decoration-thickness: 6px;
+    /* text-decoration-style: double; */
+    width: 270px;
+  }
+  
+  .left-text-holder p {
+    width: 200px;
+    height: 116px;
+    text-align: left;
+    font-family: 'DIN Condensed';
+    letter-spacing: 0.44px;
+    color: #333333;
+    opacity: 1;
+    line-height: 20px;
+    margin: 30px 0px;
+  
+  }
+  .bottom-text-holder{
+    margin:10%
+  }
+  
+  .right-image-holder {
+    display: flex;
+    justify-content: space-evenly;
+    padding:0rem 3rem;
+  
+  }
+  
+  /* image box */
+  .image-box {
+    position: relative;
+  }
+  
+  .image-box .social-icon {
+    position: absolute;
+    top:0;
+    right: 0;
+    
+    
+   
+  }
+  .image-box .social-icon img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .card-text h4 {
+    font-size: 22px;
+    letter-spacing: 0.44px;
+    color: #333333;
+    margin: 10px 0px;
+    font-family: 'DIN Condensed';
+    
+  }
+  
+  .card-text p {
+    font-size: 15px;
+    letter-spacing: 0.44px;
+    color: #333333;
+    font-weight: 500;
+    line-height: 20px;
+    /* width: 190px; */
+    font-family: 'GillSans';
+    
+  }
+  
+  .card-footer-action {
+    display: flex;
+    justify-content: flex-end;
+    /* Align comment and icons to opposite sides */
+    padding: 10px;
+  
+  }
+  
+  .card-footer-action .card-icons {
+    font-size: 14px;
+    color: #333333;
+    font-family: 'DIN Condensed';
+  
+  }
+  
+  .card-footer-action .card-comment {
+    margin-right: 10px;
+  }
+  
+  .card-footer-action .card-icons img {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+  }

@@ -1,13 +1,147 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'DIN Condensed';
+  src: url('./assets/fonts/DIN\ Condensed\ Bold.ttf');
+}
+
+@font-face {
+  font-family: 'GillSans';
+  src: url('./assets/fonts/GillSans.ttc');
+}
+
+.font35 {
+  font-size: 35px;
+}
+
+.font62 {
+  font-size: 62px;
+}
+
+.line-through {
+  text-decoration: line-through;
+  text-decoration-color: #FFDAC9;
+  /* display: inline-block; */
+  text-decoration-thickness: 6px;
+}
+
+.wrapper-content {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.bg-grey {
+  background-color: #F8F8F8;
+}
+
+.container {
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: content-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.mT-80 {
+  margin-top: 80px;
+}
+
+.mT-120 {
+  margin-top: 120px;
+}
+
+.padding-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.padding-40 {
+  padding:40px  40px;
+}
+
+.btn-primary {
+  /* padding: 10px 20px; */
+  padding: 5px 5px !important;
+  /* border-radius: 2px; */
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  box-shadow: none;
+  border: none;
+  font-family: 'DIN Condensed';
+  /* letter-spacing: 0.18px; */
+}
+
+.know-more-btn {
+  background-color: #FFDAC9 !important;
+  border: 1px solid #FFDAC9;
+  color: #333333;
+
+  /* opacity: 1; */
+}
+
+.white-block {
+  width: 250px;
+  height: 250px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 15px 50px #0000000F;
+  opacity: 1;
+  padding: 15px;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header h4 {
+  font-size: 62px;
+  font-family: 'DIN Condensed';
+  letter-spacing: 0px;
+  color: #333333;
+  text-decoration: line-through;
+  text-decoration-color: #FFDAC9;
+  /* display: inline-block; */
+  text-decoration-thickness: 6px;
+}
+
+/* form input */
+.form-group label{
+  font-size: 14px;
+  font-family: 'DIN Condensed';
+  color: #333333;
+  text-transform: capitalize;
+  letter-spacing: 0.14px;
+
+}
+.form-group .form-control{
+  height: 50px;
+  font-family: 'DIN Condensed';
+  color: #333333;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #333333;
+  border-radius: 0;
+  padding: 0;
+
+}
+.form-group .form-control::placeholder{
+  text-transform: capitalize;
+  font-family: 'GillSans';
+  color:#767676;
+  font-size: 15px;
 }

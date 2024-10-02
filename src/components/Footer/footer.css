@@ -1,0 +1,46 @@
+footer {
+    height: 323px;
+    background-color: #333333;
+    padding: 60px 100px
+}
+
+footer .bottom-text {
+    color: #767676;
+    font-family: 'GillSans';
+    font-size: 13px;
+    margin: 2rem 0rem;
+}
+
+footer h3 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFDAC9;
+    font-weight: 600;
+    margin: 0 0 18px;
+    letter-spacing: 1px;
+    font-family: 'DIN Condensed';
+}
+
+footer .footer-nav li {
+    margin: 0 0 13px;
+}
+
+footer .footer-nav li a {
+    font-size: 13px;
+    font-family: 'DIN Condensed';
+    color: #767676;
+    text-decoration: none;
+
+
+}
+
+footer .logo-text {
+    /* width: 122px; */
+    height: 95px;
+    text-align: left;
+    font-size: 35px;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    
+}

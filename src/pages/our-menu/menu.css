@@ -1,0 +1,46 @@
+.menu-list-section .heading {
+    text-align: left;
+    font-family: 'DIN Condensed';
+    letter-spacing: 0px;
+    color: #333333;
+    font-size: 62px;
+    margin-bottom: 2rem;
+    line-height: 55px;
+}
+
+.menu-list-section .text-content {
+    margin-bottom: 3rem;
+}
+
+.menu-list-section .text-content h6 {
+    text-align: left;
+    font-family: 'DIN Condensed';
+    letter-spacing: 0.14px;
+    color: #333333;
+    font-size: 14px;
+    width: 100px;
+   
+}
+
+.menu-list-section .text-content p {
+    text-align: left;
+    font-family: 'GillSans';
+    letter-spacing: 0.15px;
+    color: #767676;
+    font-size: 15px;
+    width: 200px;
+    line-height: 20px;
+}
+
+.menu-list-section .text-content .price-box {
+    width: 54px;
+    height: 28px;
+    border: 2px solid #FFDAC9;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'DIN Condensed';
+    padding:4px;
+    text-align: center;
+    /* vertical-align: middle; */
+
+}
