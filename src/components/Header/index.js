@@ -1,7 +1,7 @@
 import React from 'react'
 import "./header.css"
 import Stamp from "../../assets/images/stamp.svg"
-import { Link } from "react-router-dom";
+
 function index() {
     return (
         <header >
@@ -10,14 +10,14 @@ function index() {
                     <div className="col-md-8 ">
                         <div className='d-flex align-items-center'>
                             <div className='app-logo mr-5'>
-                                <a className="logo" href="#">Logo</a>
+                                <span className="logo" >Logo</span>
                             </div>
                             <ul className="nav navbar-menu">
-                                <li ><a href="#">about</a></li>
-                                <li ><a href="#">community</a></li>
-                                <li ><a href="#">location</a></li>
-                                <li ><a href="#">our menu</a></li>
-                                <li ><a href="#">recipes</a></li>
+                                <li ><span>about</span></li>
+                                <li ><span>community</span></li>
+                                <li ><span>location</span></li>
+                                <li ><span>our menu</span></li>
+                                <li ><span>recipes</span></li>
 
 
                             </ul>
@@ -27,8 +27,8 @@ function index() {
                     <div className=' col-md-4 text-end '>
                         <div className='auth-menu'>
                             <ul >
-                                <li className='mr-40'><a>contact</a></li>
-                                <li><a href="#">login</a></li>
+                                <li className='mr-40'><span>contact</span></li>
+                                <li><span>login</span></li>
 
                             </ul>
                         </div>

@@ -20,7 +20,7 @@ header {
 
 }
 
-.app-logo a {
+.app-logo span {
     margin-right: 3rem;
     letter-spacing: 0px;
     color: #333333;
@@ -41,7 +41,7 @@ header {
     justify-content: space-between;
 }
 
-.navbar-menu li a {
+.navbar-menu li span {
     font-weight: 700;
     color: #333333;
     opacity: 1;

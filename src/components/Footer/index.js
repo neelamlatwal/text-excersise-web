@@ -1,6 +1,6 @@
 import React from 'react';
 import "./footer.css";
-import { Link } from "react-router-dom";
+
 
 function index() {
     return (
@@ -12,39 +12,37 @@ function index() {
                             <div className="col-md-3">
                                 <h3 >SECTION 1</h3>
                                 <ul className="list-unstyled footer-nav">
-                                    <li><a href="#">Subsection </a></li>
-                                    <li><a href="#">Subsection</a></li>
-                                    <li><a href="#">Subsection</a></li>
-                                    <li><a href="#">Subsection</a></li>
+                                    <li><span>Subsection </span></li>
+                                    <li><span>Subsection</span></li>
+                                    <li><span>Subsection</span></li>
+                                    <li><span>Subsection</span></li>
                                 </ul>
                             </div>
                             <div className="col-md-3">
                                 <h3 >SECTION 2</h3>
                                 <ul className="list-unstyled footer-nav">
-                                    <li><a href="#">Subsection </a></li>
-                                    <li><a href="#">Subsection</a></li>
-                                    <li><a href="#">Subsection</a></li>
-                                    <li><a href="#">Subsection</a></li>
+                                    <li><span>Subsection </span></li>
+                                    <li><span>Subsection</span></li>
+                                    <li><span>Subsection</span></li>
+                                    <li><span>Subsection</span></li>
                                 </ul>
                             </div>
                             <div className="col-md-3">
                                 <h3 >SECTION 3</h3>
                                 <ul className="list-unstyled footer-nav">
-                                    <li><a href="#">Subsection </a></li>
-                                    <li><a href="#">Subsection</a></li>
-                                    <li><a href="#">Subsection</a></li>
-                                    <li><a href="#">Subsection</a></li>
-
+                                    <li><span>Subsection </span></li>
+                                    <li><span>Subsection</span></li>
+                                    <li><span>Subsection</span></li>
+                                    <li><span>Subsection</span></li>
                                 </ul>
                             </div>
                             <div className="col-md-3">
                                 <h3 >SECTION 4</h3>
                                 <ul className="list-unstyled footer-nav">
-                                    <li><a href="#">Subsection </a></li>
-                                    <li><a href="#">Subsection</a></li>
-                                    <li><a href="#">Subsection</a></li>
-                                    <li><a href="#">Subsection</a></li>
-
+                                    <li><span>Subsection </span></li>
+                                    <li><span>Subsection</span></li>
+                                    <li><span>Subsection</span></li>
+                                    <li><span>Subsection</span></li>
                                 </ul>
                             </div>
 

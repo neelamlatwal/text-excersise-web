@@ -25,7 +25,7 @@ footer .footer-nav li {
     margin: 0 0 13px;
 }
 
-footer .footer-nav li a {
+footer .footer-nav li span {
     font-size: 13px;
     font-family: 'DIN Condensed';
     color: #767676;
