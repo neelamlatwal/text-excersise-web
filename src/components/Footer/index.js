@@ -1,5 +1,6 @@
 import React from 'react';
-import "./footer.css"
+import "./footer.css";
+import { Link } from "react-router-dom";
 
 function index() {
     return (
@@ -15,7 +16,6 @@ function index() {
                                     <li><a href="#">Subsection</a></li>
                                     <li><a href="#">Subsection</a></li>
                                     <li><a href="#">Subsection</a></li>
-
                                 </ul>
                             </div>
                             <div className="col-md-3">
@@ -25,7 +25,6 @@ function index() {
                                     <li><a href="#">Subsection</a></li>
                                     <li><a href="#">Subsection</a></li>
                                     <li><a href="#">Subsection</a></li>
-
                                 </ul>
                             </div>
                             <div className="col-md-3">
